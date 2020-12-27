@@ -1,0 +1,180 @@
+@import "https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap";
+
+:root {
+  --maintextblack: #343A40;
+  --maintext: #7C8DA2;
+  --mainp: #8093A5;
+}
+
+/*solnavbar start*/
+img {
+  width: 10rem;
+  border-radius: 50%;
+  border: 0.5rem solid #CA7D60;
+}
+
+.left {
+  width: 17rem;
+  background-color: #BD5D38;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left a {
+  color: #DEAE99;
+  font-weight: bolder;
+}
+
+.left a:hover {
+  color: #fff;
+}
+
+/*solnavbar end*/
+/*sağ div start*/
+/*about section*/
+.right {
+  padding-left: 22rem;
+}
+
+.about {
+  margin-top: 6rem;
+  border-bottom: 3px solid var(--maintext);
+}
+
+.clarence {
+  color: var(--maintext);
+  font-size: 5rem;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.taylor {
+  color: #BD5D38;
+  font-size: 5rem;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.address {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.3rem;
+  color: var(--mainp);
+  margin-top: 0.5rem;
+  margin-bottom: 4.2rem;
+}
+
+.email {
+  color: #BD5D38;
+  font-size: 1.3rem;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.pclarence {
+  color: var(--mainp);
+  margin-bottom: 3.5rem;
+  width: 80%;
+  font-size: 1.1rem;
+}
+
+.icons4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin-bottom: 3.5rem;
+}
+
+.icons4 div {
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--maintextblack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons4 div:hover {
+  background-color: #BD5D38;
+}
+
+.icons4 i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/*about section end*/
+/*experience section start*/
+#experience, #education, #skill, #interest {
+  border-bottom: 2px solid var(--maintext);
+}
+
+.experience, .education, .skill, .interest, .awards {
+  font-size: 2.375rem;
+  color: var(--maintextblack);
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bolder;
+  margin-top: 5.8rem;
+  margin-bottom: 4.25rem;
+}
+
+.senior, .webdevolper, .junior, .webdesignintern, .uni, .highschool {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5rem;
+  color: var(--maintextblack);
+  margin-bottom: 0.5rem;
+}
+
+.intelitec, .shout, .bachelor, .program, .prolangtool, .workflow {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1rem;
+  color: var(--mainp);
+  margin-bottom: 2rem;
+}
+
+#experience p {
+  color: var(--mainp);
+  margin-bottom: 3.5rem;
+  width: 70%;
+  font-size: 1.1rem;
+}
+
+.peducationuni {
+  margin-bottom: 6.375rem;
+}
+
+.peducationschool {
+  margin-bottom: 5.875rem;
+}
+
+/*skill section*/
+.eleven i {
+  font-size: 3rem;
+  margin: 0.7rem;
+}
+
+.workflow, .awardsul{
+  padding-inline-start: 0;
+}
+
+.workflow li, .awardsul li {
+  list-style-type: none;
+  color: var(--mainp);
+  font-size: 1.1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.awardsul i {
+  color: #ffc107;
+  margin-right: 1rem;
+}
+
+.pinterest {
+  color: var(--mainp);
+  font-size: 1.1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#awards {
+  padding-bottom: 4rem;
+}

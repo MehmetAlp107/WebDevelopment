@@ -1,0 +1,184 @@
+body {
+  background-color: #160C6D;
+  height: 15rem;
+  /*overflow:hidden;*/
+}
+
+.headersiz {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.logo img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.circlelar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -4rem;
+  /*height:17rem;*/
+}
+
+.circle-blue {
+  background-color: #2E18A7;
+  padding: 22rem;
+  position: absolute;
+  border-radius: 50%;
+  top: -3rem;
+  z-index: -100;
+}
+
+.circle-orange {
+  background: linear-gradient(135deg, #FA5A3A 0%, #E84761 100%);
+  padding: 14rem;
+  position: absolute;
+  border-radius: 999rem;
+  top: 6rem;
+  z-index: -80;
+}
+
+.vr-img {
+  position: absolute;
+  top: 5rem;
+  right: 18rem;
+}
+
+.vr-img img {
+  width: 33rem;
+}
+
+.saat09 {
+  position: absolute;
+  padding: 0.35rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 14rem;
+  right: 50rem;
+}
+
+.saat11 {
+  position: absolute;
+  padding: 1rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 7rem;
+  right: 51.5rem;
+}
+
+.saat12 {
+  position: absolute;
+  padding: 0.2rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 3rem;
+  right: 28rem;
+}
+
+.saat13 {
+  position: absolute;
+  padding: 0.35rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 3.5rem;
+  right: 15rem;
+}
+
+.saat16 {
+  position: absolute;
+  padding: 0.35rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 35rem;
+  right: 11rem;
+}
+
+.saat17blue {
+  position: absolute;
+  padding: 0.35rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 35rem;
+  right: 25rem;
+}
+
+.saat17orange {
+  position: absolute;
+  padding: 0.2rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 30rem;
+  right: 30rem;
+}
+
+.saat19 {
+  position: absolute;
+  padding: 1.5rem;
+  border: 1px white solid;
+  border-radius: 50%;
+  top: 35rem;
+  right: 45rem;
+}
+
+.middle-wort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 8rem;
+}
+
+.biggearvr {
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 900;
+}
+
+.parg {
+  font-size: 0.8rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.btn-warning {
+  background-color: #F65740 !important;
+}
+
+.btnnnn {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.left {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.gearvr {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ayakli {
+  display: flex;
+  position: relative;
+  top: 16rem;
+}
+
+.ayakli a:nth-child(n+1) {
+  color: white;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+.navbar{
+
+  color: #1c2b2d;
+}
+.nav-radius{
+  border-radius: 1.5rem;
+}
+.arkaplan-turkuaz{
+  background-color: #c56183;
+}
+
+.navbar-brand{
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+.logo{
+  color: #1c2b2d;
+  padding: 5px;
+  border-radius: 15px;
+  border: 5px solid;
+  margin: 10px;
+  font-size: 1.7rem;
+  /*font-family:'Vampiro One', cursive;*/
+  font-family: 'Dancing Script', cursive;
+}
+.hakkimda{
+  line-height: 1.5;
+  font-family: 'Dancing Script', cursive;
+
+}
+@media (min-width:768px) {
+
+  .resim{
+  width:75%;
+  height: 75%;
+}
+}
+@media (max-width:767px) {
+
+  .resim{
+  width:75%;
+  height: 75%;
+}
+}
+
+li:hover {
+  color: white;
+}

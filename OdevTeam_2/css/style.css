@@ -1,0 +1,97 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" ;
+@import "https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap";
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: #FAD961;
+  background-image: url("../resim/speaker.png");
+  background-position: bottom 0 right 0;
+  background-repeat: no-repeat;
+  background-size: 56%;
+}
+
+
+.yazi{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 900;
+  font-size:1.65rem;
+}
+
+.nokta{
+  font-size:5px;
+}
+.btn-rengi{
+background-color: #FAD961 ;
+}
+
+.orta{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.kustisim{
+  font-size: 0.8rem;
+}
+
+.bustisim{
+  font-size: 2.75rem;
+  font-family: 'Epilogue', sans-serif;
+
+}
+
+.fiyat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 40px ;
+  width: 35%;
+  height: 2.8rem;
+  font-weight: bold;
+}
+.solfiyat{
+  border-right-style: solid;
+  border-color: #DEC04E;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.sagfiyat{
+
+  font-size: 0.7rem;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.sosyan{
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+
+}
+.sosyan p:nth-child(2n+1){
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+.sosyan p:nth-child(2n+2){
+  font-size: 0.7rem;
+}
+
+.enalt div:nth-child(1){
+  font-size: 0.6rem;
+}
+
+.yeter a{
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+.tivface a{
+  color:white;
+}

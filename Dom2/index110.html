@@ -1,0 +1,202 @@
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>Signin Template for Bootstrap</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style media="screen">
+      html,
+    body {
+        height: 100%;
+      }
+      body {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-align: center;
+        -ms-flex-pack: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+      .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+      .form-signin .checkbox {
+        font-weight: 400;
+      }
+      .form-signin .form-control {
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+    </style>
+  </head>
+  <body class="text-center">
+
+    <div class=""></div>
+  <!--<form class="form-signin" onsubmit="return false">
+
+      <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input oninput="girisYap()" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input oninput=" girisYap() "type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button id= "btnbtn" onclick="girisYap()" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </form>-->
+
+
+
+    <script type="text/javascript">
+//<!--form class="form-signin" onsubmit="return false">
+
+      // formElementi oluşturma
+      var formElementi = document.createElement("form");
+      // body nin çocugu yapma
+      document.body.appendChild(formElementi);
+        // formElementinin attributelarını ve değerlerini ekleme
+
+            formElementi.classList.add("form-signin");
+            //formElementi.setAttribute("class", "form-signin ");
+            formElementi.setAttribute("onsubmit","return false");
+//<img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                // imgElementi oluşturma
+                  var imgElementi = document.createElement("img");
+                  //formElementi nin çocugu yapma
+                      formElementi.appendChild(imgElementi);
+                      //imgElementi ne class ekleme ve değerini verme
+                      //imgElementi.classList.add("mb-5");
+                      imgElementi.setAttribute("class","mb-5" );
+                      imgElementi.setAttribute("src","https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" );
+                      imgElementi.setAttribute("alt","" );
+                      imgElementi.setAttribute("width","72" );
+                      imgElementi.setAttribute("height","72" );
+  //<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                var h1Elementi = document.createElement("h1");
+                formElementi.appendChild(h1Elementi);
+                h1Elementi.classList.add("h3"," mb-3", "font-weight-normal");
+                //h1Elementi.setAttribute("class","h3 mb-3 font-weight-normal" );
+                var h1Yazi = document.createTextNode("Please sign in");
+                h1Elementi.appendChild(h1Yazi);
+                //h1Elementi.innerHTML= "Please sign in";
+  //<label for="inputEmail" class="sr-only">Email address</label>
+                var labelEmailElementi = document.createElement("label");
+                formElementi.appendChild(labelEmailElementi);
+                labelEmailElementi.setAttribute("for", "inputEmail");
+                labelEmailElementi.setAttribute("class", "sr-only");
+                var labelEmailYazi = document.createTextNode("Email address");
+                labelEmailElementi.appendChild(labelEmailYazi);
+  //<input oninput="girisYap()" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                var inputElementi = document.createElement("input");
+                formElementi.appendChild(inputElementi);
+                inputElementi.setAttribute("oninput", "girisYap()");
+                inputElementi.setAttribute("type", "email");
+                inputElementi.setAttribute("id", "inputEmail");
+                inputElementi.setAttribute("class", "form-control");
+                inputElementi.setAttribute("placeholder", "Email address");
+//<label for="inputPassword" class="sr-only">Password</label>
+                var labelPasswordElementi = document.createElement("label");
+                formElementi.appendChild(labelPasswordElementi);
+                labelPasswordElementi.setAttribute("for", "inputPassword");
+                labelPasswordElementi.setAttribute("class", "sr-only");
+                var labelYaziPassword = document.createTextNode("Password");
+                labelPasswordElementi.appendChild(labelYaziPassword);
+//<input oninput=" girisYap() "type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                var inputPasswordElementi = document.createElement("input");
+                formElementi.appendChild(inputPasswordElementi);
+                inputPasswordElementi.setAttribute("oninput","girisYap() ");
+                inputPasswordElementi.setAttribute("type","password");
+                inputPasswordElementi.setAttribute("id","inputPassword");
+                inputPasswordElementi.setAttribute("class","form-control");
+                inputPasswordElementi.setAttribute("placeholder","Password");
+//<div class="checkbox mb-3">
+//  <label>
+//    <input type="checkbox" value="remember-me"> Remember me
+//  </label>
+//</div>
+                var divElementi = document.createElement("div");
+                formElementi.appendChild(divElementi);
+                divElementi.classList.add("checkbox", "mb-3");
+
+                var labelDivElementi = document.createElement("label");
+                divElementi.appendChild(labelDivElementi);
+
+
+                var inputDivLabelElementi = document.createElement("input");
+                labelDivElementi.appendChild(inputDivLabelElementi);
+                inputDivLabelElementi.setAttribute("type","checkbox");
+                inputDivLabelElementi.setAttribute("value","remember-me");
+                var inputDivLabelElementiYazi = document.createTextNode("Remember me");
+                inputDivLabelElementi.appendChild(labelDivElementiYazi);
+//<button id= "btnbtn" onclick="girisYap()" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                var utonElementi = document.createElement("button");
+                formElementi.appendChild(utonElementi);
+                utonElementi.setAttribute("id","btnbtn");
+                utonElementi.setAttribute("onclick","girisYap()");
+                utonElementi.classList("btn","btn-lg", "btn-primary");
+                utonElementi.setAttribute("type","submit");
+                var yaziUtonElementi = document.createTextNode("Sign in");
+                utonElementi.appendChild(yaziUtonElementi);
+  //<p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                var pElementi = document.createElement("p");
+                formElementi.appendChild(pElementi);
+                pElementi.classList.add("mt-5", " mb-3", "text-muted") ;
+                var yaziPElementi = document.createTextNode("&copy; 2017-2018");
+                pElementi.appendChild(yaziPElementi);
+
+      var emailKutusu = document.getElementById("inputEmail");
+      var sifreKutusu = document.getElementById("inputPassword");
+      var buttonElementi =document.getElementById("btnbtn")
+
+      function girisYap() {
+
+        var email = emailKutusu.value;
+        var sifre = sifreKutusu.value;
+
+        if(email == "admin@adll.com"  &&  sifre == "1234" ){
+                  alert("giriş başarılı");
+                  buttonElementi.remove();
+                  bodyElementi.innerHTML= '<h1>"Hosgeldiniz"</h1>';
+                  }else{
+                        sonucBolumu.innerText = "E-Mail ya da Şifre yanlış.";
+
+                        }
+      }
+    </script>
+  </body>
+  </html>

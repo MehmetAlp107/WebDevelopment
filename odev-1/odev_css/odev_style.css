@@ -1,0 +1,47 @@
+
+
+
+body{
+  margin:2% 10%;
+}
+.hakkimda{
+  background-color: #cffffe;
+    padding: 2% 2%;
+}
+.hakkimda-resmi{
+  width: 150px;
+  height: 150px;
+}
+.hakkimde-yazi{
+  padding-left: 2rem;
+}
+
+.hobilerim{
+  background-color: #f9f7d9;
+  width: auto;
+  height :auto;
+    padding: 2% 2%;
+  }
+  .hobilerim-resmi{
+    width: 150px;
+    height: 150px;
+
+  }
+.hobilerim-yazi{
+padding-right: 2rem;
+}
+
+.bilgimdiller{
+  background-color: #fce2ce;
+  width: auto;
+  height :auto;
+  padding: 2% 2%;
+}
+.bilgimdiller-resmi{
+  width: 150px;
+  height: 150px;
+
+}
+.bilgimiller-yazi{
+  padding-left: 2rem;
+}
